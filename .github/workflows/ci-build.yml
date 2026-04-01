@@ -36,6 +36,11 @@ jobs:
           cd frontend
           npm install
 
+      - name: Checar formatação (frontend)
+        run: |
+          cd frontend
+          npx prettier --check .
+
       - name: Rodar lint (frontend)
         run: |
           cd frontend
