@@ -7,8 +7,6 @@ import '../styles/App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-   const teste = 123
-
   return (
     <>
       <section id="center">
@@ -39,7 +37,7 @@ function App() {
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
           <h2>Documentation</h2>
-          <p>Your questions, answered</p>
+          <p>Your questions</p>
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">
