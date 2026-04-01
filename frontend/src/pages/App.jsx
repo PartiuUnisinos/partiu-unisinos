@@ -7,6 +7,8 @@ import '../styles/App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const teste = 123
+
   return (
     <>
       <section id="center">
